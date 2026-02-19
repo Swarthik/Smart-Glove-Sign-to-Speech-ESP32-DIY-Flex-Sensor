@@ -1,34 +1,32 @@
-# Gradle files
-.gradle/
-build/
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Arduino Build Files
+*.ino.cpp
+*.ino.cpp.o
+*.elf
+*.hex
+*.bin
+*.map
 
-# Log/OS Files
+# Arduino Cache
+*.tmp
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# ESP32 Temporary Files
+*.partitions.bin
+*.bootloader.bin
+*.spiffs.bin
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# MIT App Inventor Backup Files
+*.bak
+*.autosave
 
-# Keystore files
-*.jks
-*.keystore
+# VS Code Settings
+.vscode/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Misc
+*.zip
+*.rar
