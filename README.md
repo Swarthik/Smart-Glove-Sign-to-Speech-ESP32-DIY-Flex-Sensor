@@ -1,0 +1,1 @@
+# Smart-Glove-Sign-to-Speech-ESP32-DIY-Flex-Sensor
